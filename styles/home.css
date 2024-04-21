@@ -1,0 +1,46 @@
+.content-intro {
+    display: flex;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.image img{
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: all .3s ease 0s;
+}
+
+.image img:hover{
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.intro div{
+    padding-left: 50px;
+}
+
+
+.welcome-title {
+    font-size: 30px;
+    letter-spacing: .15em;
+    font-weight: bold;
+}
+.welcome-subtitle {
+    font-size: 20px;
+}
+
+.welcome-text {
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    height: 40px;
+}
+
+.resume-button {
+    background-color: rgb(160, 201, 13);
+}
