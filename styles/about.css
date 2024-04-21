@@ -43,6 +43,7 @@
     padding: 10px;
     border-radius: 10px;
 }
+
 .skill-tag div:hover {
     border: 2px solid red;
     background-color: antiquewhite;

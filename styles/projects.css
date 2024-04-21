@@ -1,0 +1,46 @@
+.content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.projects {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-title {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.project-cards {
+    padding-top: 10px;
+}
+
+.project-cards div{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project-cards div:hover {
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: 500px;
+    padding-bottom: 10px;
+}
+
+.project-description {
+    padding-bottom: 10px;
+}
